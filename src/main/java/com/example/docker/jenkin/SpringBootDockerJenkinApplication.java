@@ -15,6 +15,6 @@ public class SpringBootDockerJenkinApplication {
 
 	@GetMapping("/home")
 	public String home() {
-		return "Hello World!";
+		return "This is my Docker Jenkin Integration application!";
 	}
 }
